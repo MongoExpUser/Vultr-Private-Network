@@ -1,4 +1,4 @@
-name: CI - PRN-On-AWS
+name: CI - PVN-On-AWS
 
 on:
   push:

@@ -18,7 +18,7 @@ jobs:
       APPLY: 'yes'
       DESTROY: 'no'
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      VULTR_API_KEY: ${{ secrets.VULTR_API_KEY }}
+      API_KEY: ${{ secrets.VULTR_API_KEY }}
     defaults:
       run:
         shell: bash

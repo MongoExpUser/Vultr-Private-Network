@@ -1,4 +1,4 @@
-
+[![CI - PVN-On-Vultr](https://github.com/MongoExpUser/Vultr-Private-Network/actions/workflows/terraform.yml/badge.svg)](https://github.com/MongoExpUser/Vultr-Private-Network/actions/workflows/terraform.yml)
 
 
 # Vultr-Private-Network

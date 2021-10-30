@@ -18,6 +18,6 @@ terraform {
 resource "vultr_private_network" "db_private_network" {
     description = var.private_network_description
     region = var.vultr_region_name
-    v4_subnet  = var.v4_subnet
-    v4_subnet_mask = var.v4_subnet_mask
+    #v4_subnet  = var.v4_subnet
+    #v4_subnet_mask = var.v4_subnet_mask
 }

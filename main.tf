@@ -8,10 +8,12 @@ terraform {
     }
   }
   
-  provider "vultr" { }
-  
   backend "local" { }
 }
+
+
+# 0. provider
+provider "vultr" { }
 
 
 # 1. create vultr database private network (db prn)

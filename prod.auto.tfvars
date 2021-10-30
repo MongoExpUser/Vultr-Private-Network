@@ -2,7 +2,7 @@
 # 0. Organization identifier, project, environmental and creator  variables
 org_identifier                            = "my-org"
 project_name                              = "aiml"
-environment                               = "prd"
+environment                               = "prod"
 vultr_region_name                         = "ewr"
 creator                                   = "Terraform"
 

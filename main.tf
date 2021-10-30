@@ -11,7 +11,7 @@ terraform {
 }
 
 
-# 1. create vultr database private network (db prn)
+# 1. create private network (db prn)
 resource "vultr_private_network" "private_network" {
     description       = var.private_network_description
     region            = var.vultr_region_name

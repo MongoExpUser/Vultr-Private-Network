@@ -56,11 +56,11 @@ jobs:
       run: terraform plan
       
     - name: Terraform Apply Dev
-      if: github.ref == 'refs/heads/master' && github.event_name == 'push' && env.APPLY == 'yes' && env.DEV == 'yes'
+      if: github.ref == 'refs/heads/main' && github.event_name == 'push' && env.APPLY == 'yes' && env.DEV == 'yes'
       run: terraform apply -var-file=dev.auto.tfvars -auto-approve
     
     - name: Terraform Apply Prod
-      if: github.ref == 'refs/heads/master' && github.event_name == 'push' && env.APPLY == 'yes' && env.PROD == 'yes'
+      if: github.ref == 'refs/heads/main' && github.event_name == 'push' && env.APPLY == 'yes' && env.PROD == 'yes'
       run: terraform apply -var-file=prod.auto.tfvars -auto-approve
   
     - name: Terraform Destroy

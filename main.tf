@@ -4,16 +4,11 @@ terraform {
   required_providers {
     vultr = {
       source          = "vultr/vultr"
-      version         = "2.5.0"
     }
   }
   
   backend "local" { }
 }
-
-
-# 0. provider
-provider "vultr" { }
 
 
 # 1. create vultr database private network (db prn)

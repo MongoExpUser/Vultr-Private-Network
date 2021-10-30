@@ -1,5 +1,5 @@
 # 0. Organization identifier, project, environmental and creator  variables
-org_identifier                            = "my-org"
+org_identifier                            = "org"
 project_name                              = "aiml"
 environment                               = "dev"
 vultr_region_name                         = "ewr"
